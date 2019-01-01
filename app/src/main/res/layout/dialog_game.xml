@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="Trivia"
+        />
+    <TextView
+        android:id="@+id/gameDesc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="a trivia game or competition is one
+         where the competitors are asked questions about interesting but
+         unimportant facts in many subjects"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hapoalim"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/startGameBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_btn"
+            android:text="Start"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@android:color/holo_blue_bright"/>
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="cancel"
+            android:background="@drawable/round_btn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+</LinearLayout>
